@@ -1,0 +1,103 @@
+body {
+    font-family: "Epunda Slab", serif;
+    margin: 0;
+}
+
+/* header stuff*/
+header {
+    background-color: #fdf0d5;
+    padding: 1rem 10px;
+}
+
+header span {
+    color: #003049;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+/* navigation stuff */
+nav {
+    background-color: #003049;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: .83rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #fdf0d5;
+    font-weight: 400;
+}
+
+nav li.active a {
+    background-color: #003049;
+    color: #fdf0d5;
+}
+
+nav li a:hover {
+    color: white;
+}
+
+/* main stuff*/
+main {
+    padding: 1rem 10px;
+}
+
+main h1 {
+    color: #c1121f;
+}
+
+main h2 {
+    color: #669bbc;
+    margin-bottom: .1rem;
+}
+
+main p {
+    margin: 0;
+    color: #333;
+}
+
+main ol {
+    padding: .5rem 30px;
+    background-color: #fdf0d5;
+}
+
+main h2 {
+    color: #c1121f;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+main p {
+    color:#333;
+    margin-left: 20px;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main em {
+    font-weight: 400;
+    color:#c1121f;
+}
+/* footer stuff*/
+footer{
+    background-color: #fdf0d5;
+    text-align: center;
+    padding: 1rem 0;
+}
+footer p {
+    margin: 0;
+    font-size: .8rem;
+    color: #333;
+    letter-spacing: 3px;
+}
