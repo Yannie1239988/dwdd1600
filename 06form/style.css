@@ -1,0 +1,203 @@
+body {
+    font-family: "Epunda Slab", serif;
+    margin: 0;
+}
+
+header {
+    background-color: #fdf0d5;
+    padding: 1rem 10px;
+}
+
+header span {
+    color: #003049;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+/* nav */
+nav {
+    background-color: #003049;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: .83rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #fdf0d5;
+    font-weight: 400;
+}
+
+nav li.active a {
+    background-color: #669bbc;
+    color: white;
+}
+
+nav li a:hover {
+    color: white;
+}
+
+/* main */
+main {
+    padding: 1rem 10px;
+}
+
+main h1 {
+    color: #c1121f;
+}
+
+main h2 {
+    color: #c1121f;
+    font-weight: 500;
+}
+
+main p {
+    color: #333;
+    margin-left: 20px;
+}
+
+/* Home page image */
+.home-img {
+    float: right;
+    width: 40%;
+    margin: 0 0 1rem 1rem;
+}
+
+.home-img img {
+    width: 100%;
+    height: auto;
+}
+
+.home-img figcaption {
+    font-size: .8rem;
+    text-align: center;
+    color: #555;
+}
+
+/* Gallery Grid */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.gallery figure {
+    width: 300px;
+}
+
+.gallery figcaption {
+    text-align: center;
+    font-size: .9rem;
+    margin-top: .3rem;
+}
+
+/* Footer clear fix */
+footer {
+    clear: both;
+    background-color: #fdf0d5;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: .8rem;
+    color: #333;
+    letter-spacing: 3px;
+}
+
+
+/* Change bullet type for unordered lists */
+ul {
+    list-style-type: square; /* REQUIRED: changes bullet shape */
+    margin-left: 30px;
+}
+
+/* Style ordered lists differently */
+ol {
+    list-style-type: upper-roman;
+    margin-left: 40px;
+}
+
+/* Style the definition list */
+dl {
+    border: 2px solid #669bbc; /* REQUIRED: adds border */
+    border-radius: 10px;       /* REQUIRED: border radius */
+    padding: 1rem;
+    background-color: #f7faff;
+    width: fit-content;
+    margin-left: 20px;
+}
+
+dt {
+    font-weight: 700;
+    color: #003049;
+}
+
+dd {
+    margin-bottom: .6rem;
+    color: #333;
+}
+
+/* Vote form styling */
+form {
+    max-width: 600px;
+    margin: 1rem auto;
+    font-family: "Oxygen", sans-serif;
+}
+
+fieldset {
+    border: 2px solid #669bbc;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: #f7faff;
+}
+
+legend {
+    font-weight: bold;
+    color: #003049;
+    padding: 0 0.5rem;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+input[type="text"], input[type="email"], input[type="tel"],
+textarea, select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+button[type="submit"] {
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    border: 2px solid #003049;
+    background-color: #c1121f;
+    color: white;
+    cursor: pointer;
+}
+button[type="submit"]:hover {
+    background-color: #f04a4a;
+}
+
+
